@@ -30,3 +30,17 @@ html, body {
 	box-sizing: border-box;
 	animation: 1s infinite;
 }
+
+.animation.A::before{
+	animation-name: ping;
+}
+
+.animation.B::before{
+	animation-name: ping;
+	border-style: dashed;
+}
+
+.animation.C::before{
+	animation-name: ping;
+	border-style: double;
+}
